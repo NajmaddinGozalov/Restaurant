@@ -18,6 +18,7 @@ body {
 }
 
 .nav_fix {
+    width: 100% !important;
     background-color: rgb(10, 9, 9, 50%);
     z-index: 1;
     position: fixed;
@@ -59,11 +60,11 @@ body {
     margin: auto;
 }
 
-@media only screen and (max-width : 990px) {
+/* @media only screen and (max-width : 990px) {
     .bar {
         display: none !important;
     }
-}
+} */
 
 /* NAVBAR MENU */
 
@@ -92,8 +93,14 @@ body {
     border: none;
     background-color: transparent;
 }
+#menu-icon{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+} 
 
 .menu {
+    
     transition: 0.5s;
     z-index: 1;
     width: 30%;
